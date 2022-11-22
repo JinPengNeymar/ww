@@ -1,0 +1,145 @@
+<!DOCTYPE HTML>
+<html>
+<head>
+<title>Services</title>
+<link href="css/bootstrap.css" rel="stylesheet" type="text/css" media="all">
+<link href="css/style.css" rel="stylesheet" type="text/css" media="all" />
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<meta name="keywords" content="" />
+<script type="application/x-javascript"> addEventListener("load", function() { setTimeout(hideURLbar, 0); }, false); function hideURLbar(){ window.scrollTo(0,1); } </script>
+<script src="js/jquery-1.11.1.min.js"></script>
+<script src="js/bootstrap.js"></script>
+<script src="js/responsiveslides.min.js"></script>
+ <script>
+    $(function () {
+      $("#slider").responsiveSlides({
+      	auto: true,
+      	nav: true,
+      	speed: 500,
+        namespace: "callbacks",
+        pager: true,
+      });
+    });
+  </script>
+
+</head>
+<body>
+		<!--header-->
+			<div class="header head-top">
+				<div class="container">
+					<div class="header-top">
+						<nav class="navbar navbar-default">
+							<div class="container-fluid">
+    <!-- Brand and toggle get grouped for better mobile display -->
+								<div class="navbar-header">
+									  <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1" aria-expanded="false">
+											<span class="sr-only">Toggle navigation</span>
+											<span class="icon-bar"></span>
+											<span class="icon-bar"></span>
+											<span class="icon-bar"></span>
+									  </button>
+									<div class="navbar-brand">
+										<h1><a href="index.html">Bakery</a></h1>
+									</div>
+								</div>
+
+    <!-- Collect the nav links, forms, and other content for toggling -->
+							<div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+							  <ul class="nav navbar-nav">
+									<li><a href="index.html">Home <span class="sr-only">(current)</span></a></li>
+									<li><a href="about.html">About</a></li>
+									<li class="active"><a href="careers.html">Carerrs</a></li>
+									
+									<li><a href="register.php">Register</a></li>
+									<li><a href="orderonline.php">Order online</a></li>
+									<li><a href="contact.html">Contact</a></li>
+								</ul>
+							  
+							</div><!-- /.navbar-collapse -->
+  </div><!-- /.container-fluid -->
+						</nav>
+
+					</div>
+		</div>
+</div>
+<!--header-->
+<div class="wrapper">
+	<div id="welcome" class="container">
+		<div class="title">
+            <h1>Join our team</h1>
+            <p> We are expanding our branches and need experienced baker regularly.</n>
+                Send us your detail with the form below</br>
+            and we will be in contact shortly</p><br>
+
+            <div id="three-column" class="container">
+           
+                <div class="title">
+                    <h2>Fill out the form below and upload your cover letter and resume</h2>
+                    <form action="upload_file.php" method="post" enctype="multipart/form-data">
+                        <label for="fname">First name:</label><br>
+                        <input type="text" id="fname" name="fname"><br>
+                        <label for="lname">Last name:</label><br>
+                        <input type="text" id="lname" name="lname"><br/>
+                        <label for="email">Email Address:</label><br>
+                        <input type="text" id="email" name="email"><br/>
+                        <textarea id="w3review" name="w3review" rows="4" cols="50">
+                            Write about yourself in this field...
+                            </textarea><br/>
+                    <label for="file">Cover Letter</label>
+                    <input type="file" name="myfile[]" id="file"><br/>
+                    <label for="file">Resume</label>
+                    <input type="file" name="myfile[]" id="file2"><br/>
+                    <input type="submit" name="submit" value="Submit"><br/>
+                </form> 
+                
+                </div>
+            
+				
+				
+            </div>
+            </div>
+            </div>
+</div>
+				<!--GET IN TOUCH-->
+					<div class="touch-section">
+					<div class="container">
+						<h3>get in touch</h3>
+						<div class="touch-grids">
+							<div class="col-md-4 touch-grid">
+								<h4>address</h4>
+								<h5>Gold Plaza</h5>
+								<p>9870St Vincent Place,</p>
+								<p>Glasgow, DC 45 Fr 45.</p>
+								<p>United Kingdom</p>
+							</div>
+							<div class="col-md-4 touch-grid">
+								<h4>Sales</h4>
+								<h5>Sales Enquiries</h5>
+								<p>Telephone : +1 800 603 6035</p>
+								<p>Fax : +1 800 889 9898</p>
+								<p>E-mail : <a href="mailto:example@mail.com"> example@mail.com</a></p>
+							</div>
+							<div class="col-md-4 touch-grid">
+							<h4>general</h4>
+									<h5>Gold Plaza</h5>
+								<p>Telephone : +1 800 603 6035</p>
+								<p>Fax : +1 800 889 9898</p>
+								<p>E-mail : <a href="mailto:example@mail.com"> example@mail.com</a></p>
+							</div>
+							<div class="clearfix"></div>
+						</div>
+					</div>
+					</div>
+				<!--GET IN TOUCH-->
+			</div>
+			<!--footer-->
+					<div class="footer-section">
+						<div class="container">
+							<div class="footer-top">
+								<p>JinPeng &copy; Neymar 203190721 All rights reserved.<a target="_blank" href="index.html">web</a></p>
+							</div>
+						</div>
+					</div>
+</body>
+</html>
